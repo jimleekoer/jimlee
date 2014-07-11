@@ -14,14 +14,15 @@
 		7E903012196E793300516190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903011196E793300516190 /* main.m */; };
 		7E903016196E793300516190 /* PrcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903015196E793300516190 /* PrcAppDelegate.m */; };
 		7E903019196E793300516190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E903017196E793300516190 /* Main.storyboard */; };
-		7E90301C196E793300516190 /* PrcFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90301B196E793300516190 /* PrcFirstViewController.m */; };
-		7E90301F196E793300516190 /* PrcSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90301E196E793300516190 /* PrcSecondViewController.m */; };
 		7E903021196E793300516190 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E903020196E793300516190 /* Images.xcassets */; };
 		7E903028196E793300516190 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E903027196E793300516190 /* XCTest.framework */; };
 		7E903029196E793300516190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E903005196E793300516190 /* Foundation.framework */; };
 		7E90302A196E793300516190 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E903009196E793300516190 /* UIKit.framework */; };
 		7E903032196E793300516190 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E903030196E793300516190 /* InfoPlist.strings */; };
 		7E903034196E793300516190 /* jimleeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903033196E793300516190 /* jimleeTests.m */; };
+		7E903041196E867C00516190 /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903040196E867C00516190 /* DeviceTableViewController.m */; };
+		7E903051196E884800516190 /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903050196E884800516190 /* RecordTableViewController.m */; };
+		7E903054196E885D00516190 /* moreinformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E903053196E885D00516190 /* moreinformationTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +47,18 @@
 		7E903014196E793300516190 /* PrcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrcAppDelegate.h; sourceTree = "<group>"; };
 		7E903015196E793300516190 /* PrcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrcAppDelegate.m; sourceTree = "<group>"; };
 		7E903018196E793300516190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E90301A196E793300516190 /* PrcFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrcFirstViewController.h; sourceTree = "<group>"; };
-		7E90301B196E793300516190 /* PrcFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrcFirstViewController.m; sourceTree = "<group>"; };
-		7E90301D196E793300516190 /* PrcSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrcSecondViewController.h; sourceTree = "<group>"; };
-		7E90301E196E793300516190 /* PrcSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrcSecondViewController.m; sourceTree = "<group>"; };
 		7E903020196E793300516190 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E903026196E793300516190 /* jimleeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jimleeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E903027196E793300516190 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7E90302F196E793300516190 /* jimleeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jimleeTests-Info.plist"; sourceTree = "<group>"; };
 		7E903031196E793300516190 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E903033196E793300516190 /* jimleeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jimleeTests.m; sourceTree = "<group>"; };
+		7E90303F196E867C00516190 /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
+		7E903040196E867C00516190 /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
+		7E90304F196E884800516190 /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
+		7E903050196E884800516190 /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
+		7E903052196E885D00516190 /* moreinformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreinformationTableViewController.h; sourceTree = "<group>"; };
+		7E903053196E885D00516190 /* moreinformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreinformationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +118,11 @@
 		7E90300B196E793300516190 /* jimlee */ = {
 			isa = PBXGroup;
 			children = (
+				7E90303E196E863A00516190 /* View */,
+				7E90303D196E862800516190 /* ViewController */,
 				7E903014196E793300516190 /* PrcAppDelegate.h */,
 				7E903015196E793300516190 /* PrcAppDelegate.m */,
 				7E903017196E793300516190 /* Main.storyboard */,
-				7E90301A196E793300516190 /* PrcFirstViewController.h */,
-				7E90301B196E793300516190 /* PrcFirstViewController.m */,
-				7E90301D196E793300516190 /* PrcSecondViewController.h */,
-				7E90301E196E793300516190 /* PrcSecondViewController.m */,
 				7E903020196E793300516190 /* Images.xcassets */,
 				7E90300C196E793300516190 /* Supporting Files */,
 			);
@@ -155,6 +156,26 @@
 				7E903030196E793300516190 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E90303D196E862800516190 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E90303F196E867C00516190 /* DeviceTableViewController.h */,
+				7E903040196E867C00516190 /* DeviceTableViewController.m */,
+				7E90304F196E884800516190 /* RecordTableViewController.h */,
+				7E903050196E884800516190 /* RecordTableViewController.m */,
+				7E903052196E885D00516190 /* moreinformationTableViewController.h */,
+				7E903053196E885D00516190 /* moreinformationTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7E90303E196E863A00516190 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E90301F196E793300516190 /* PrcSecondViewController.m in Sources */,
-				7E90301C196E793300516190 /* PrcFirstViewController.m in Sources */,
+				7E903041196E867C00516190 /* DeviceTableViewController.m in Sources */,
+				7E903051196E884800516190 /* RecordTableViewController.m in Sources */,
 				7E903016196E793300516190 /* PrcAppDelegate.m in Sources */,
 				7E903012196E793300516190 /* main.m in Sources */,
+				7E903054196E885D00516190 /* moreinformationTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

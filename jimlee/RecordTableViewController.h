@@ -1,5 +1,5 @@
 //
-//  PrcFirstViewController.h
+//  RecordTableViewController.h
 //  jimlee
 //
 //  Created by sse-6 on 14-7-10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PrcFirstViewController : UIViewController
+@interface RecordTableViewController : UITableViewController
 
 @end
